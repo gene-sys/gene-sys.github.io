@@ -257,6 +257,11 @@ footer {
     position: relative;
     overflow: auto;
 }
+.block3 { 
+    top: 600px;
+    position: relative;
+    overflow: auto;
+}
 @media print, screen and (max-width: 960px) {
 
   div.wrapper {
