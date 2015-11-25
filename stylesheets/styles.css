@@ -250,23 +250,25 @@ footer {
 .block1 { 
     left: 300px;
     position: relative;
-    overflow: auto;
+/*     overflow: auto; */
 }
 .block2 { 
     top: 300px;
     position: relative;
-    overflow: auto;
+/*     overflow: auto; */
 }
 .block3 { 
     top: 600px;
     position: relative;
-    overflow: auto;
+/*     overflow: auto; */
 }
 @media print, screen and (max-width: 960px) {
 
   div.wrapper {
-    width:auto;
+/*     width:auto; */
+    width:720px;
     margin:0;
+    overflow: auto;
   }
 
   header, section, footer {
