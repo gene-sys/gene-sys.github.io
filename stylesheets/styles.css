@@ -108,7 +108,7 @@ a:hover small {
   color:#777;
 }
 
-.wrapper {
+body.wrapper {
 /*   width: 1000px; */
 /*   height: 720px; */
   overflow: scroll;
@@ -250,17 +250,17 @@ footer {
   bottom:50px;
   -webkit-font-smoothing:subpixel-antialiased;
 }
-.wrapper.block1 { 
+.block1 { 
     left: 300px;
     position: relative;
 /*     overflow: auto; */
 }
-.wrapper.block2 { 
+.block2 { 
     top: 300px;
     position: relative;
 /*     overflow: auto; */
 }
-.wrapper.block3 { 
+.block3 { 
     top: 600px;
     position: relative;
 /*     overflow: auto; */
