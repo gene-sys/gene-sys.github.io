@@ -250,17 +250,17 @@ footer {
   bottom:50px;
   -webkit-font-smoothing:subpixel-antialiased;
 }
-.block1 { 
+.wrapper .block1 { 
     left: 300px;
     position: relative;
 /*     overflow: auto; */
 }
-.block2 { 
+.wrapper .block2 { 
     top: 300px;
     position: relative;
 /*     overflow: auto; */
 }
-.block3 { 
+.wrapper .block3 { 
     top: 600px;
     position: relative;
 /*     overflow: auto; */
