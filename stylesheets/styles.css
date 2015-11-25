@@ -108,7 +108,7 @@ a:hover small {
   color:#777;
 }
 
-body.wrapper {
+.wrapper {
 /*   width: 1000px; */
 /*   height: 720px; */
   overflow: scroll;
@@ -160,14 +160,14 @@ img {
   max-width:100%;
 }
 
-header {
+.header {
   width:270px;
 /*   float:left; */
   position:fixed;
   -webkit-font-smoothing:subpixel-antialiased;
 }
 
-header ul {
+.header ul {
   list-style:none;
   height:40px;
   padding:0;
@@ -177,22 +177,22 @@ header ul {
   width:270px;
 }
 
-header li {
+.header li {
   width:89px;
   float:left;
   border-right:1px solid #e0e0e0;
   height:40px;
 }
 
-header li:first-child a {
+.header li:first-child a {
   border-radius:5px 0 0 5px;
 }
 
-header li:last-child a {
+.header li:last-child a {
   border-radius:0 5px 5px 0;
 }
 
-header ul a {
+.header ul a {
   line-height:1;
   font-size:11px;
   color:#999;
@@ -202,11 +202,11 @@ header ul a {
   height:34px;
 }
 
-header ul a:hover {
+.header ul a:hover {
   color:#999;
 }
 
-header ul a:active {
+.header ul a:active {
   background-color:#f0f0f0;
 }
 
@@ -215,12 +215,12 @@ strong {
   font-weight:700;
 }
 
-header ul li + li + li {
+.header ul li + li + li {
   border-right:none;
   width:89px;
 }
 
-header ul a strong {
+.header ul a strong {
   font-size:14px;
   display:block;
   color:#222;
@@ -250,17 +250,17 @@ footer {
   bottom:50px;
   -webkit-font-smoothing:subpixel-antialiased;
 }
-body.block1 { 
+.block1 { 
     left: 300px;
     position: relative;
 /*     overflow: auto; */
 }
-body.block2 { 
+.block2 { 
     top: 300px;
     position: relative;
 /*     overflow: auto; */
 }
-body.block3 { 
+.block3 { 
     top: 600px;
     position: relative;
 /*     overflow: auto; */
@@ -274,13 +274,13 @@ body.block3 {
     overflow: auto;
   }
 
-  header, section, footer {
+  .header, section, footer {
     float:none;
     position:static;
     width:auto;
   }
 
-  header {
+  .header {
     padding-right:320px;
   }
 
@@ -291,11 +291,11 @@ body.block3 {
     margin:0 0 20px;
   }
 
-  header a small {
+  .header a small {
     display:inline;
   }
 
-  header ul {
+  .header ul {
     position:absolute;
     right:50px;
     top:52px;
@@ -307,11 +307,11 @@ body.block3 {
     word-wrap:break-word;
   }
 
-  header {
+  .header {
     padding:0;
   }
 
-  header ul, header p.view {
+  .header ul, .header p.view {
     position:static;
   }
 
@@ -325,11 +325,11 @@ body.block3 {
     padding:15px;
   }
 
-  header ul {
+  .header ul {
     width:99%;
   }
 
-  header li, header ul li + li + li {
+  .header li, .header ul li + li + li {
     width:33%;
   }
 }
