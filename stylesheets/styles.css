@@ -110,6 +110,7 @@ a:hover small {
 
 .wrapper {
 /*   width: 700px; */
+  position: relative;
   height: 720px;
   overflow: scroll;
   margin: 10 auto;
@@ -252,17 +253,17 @@ footer {
 }
 .block1 { 
     left: 300px;
-    position: relative;
+    position: absolute;
 /*     overflow: auto; */
 }
 .block2 { 
     top: 300px;
-    position: relative;
+    position: absolute;
 /*     overflow: auto; */
 }
 .block3 { 
     top: 600px;
-    position: relative;
+    position: absolute;
 /*     overflow: auto; */
 }
 /*@media print, screen and (max-width: 960px) {
