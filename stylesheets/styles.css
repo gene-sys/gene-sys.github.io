@@ -109,8 +109,8 @@ a:hover small {
 }
 
 .wrapper {
-  /*width:600px;*/
-  overflow: auto;
+  width: 600px;
+  overflow: scroll;
   margin: 10 auto;
 }
 
