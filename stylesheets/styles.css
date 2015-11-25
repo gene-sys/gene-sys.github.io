@@ -248,16 +248,14 @@ footer {
   -webkit-font-smoothing:subpixel-antialiased;
 }
 .block1 { 
-/*     width: 200px;  */
-/*     background: #ccc; */
     left: 300px;
     position: relative;
     overflow: auto;
-/*     margin: -1; */
-/*     padding: 5px; */
-/*     padding-right: 20px;  */
-/*     border: solid 1px black;  */
-/*     float: left; */
+}
+.block2 { 
+    top: 300px;
+    position: relative;
+    overflow: auto;
 }
 @media print, screen and (max-width: 960px) {
 
