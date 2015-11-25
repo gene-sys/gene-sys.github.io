@@ -109,7 +109,7 @@ a:hover small {
 }
 
 .wrapper {
-/*   width:860px; */
+  width:600px;
 /*   margin:0 auto; */
 }
 
@@ -242,8 +242,8 @@ hr {
 }
 
 footer {
-  width:270px;
-  float:left;
+  width:200px;
+  float:none;
   position:fixed;
   bottom:50px;
   -webkit-font-smoothing:subpixel-antialiased;
@@ -263,10 +263,10 @@ footer {
     position: relative;
 /*     overflow: auto; */
 }
-@media print, screen and (max-width: 960px) {
+/*@media print, screen and (max-width: 960px) {
 
   div.wrapper {
-/*     width:auto; */
+    width:auto;
     width:720px;
     margin:0;
     overflow: auto;
@@ -338,4 +338,4 @@ footer {
     font-size:12pt;
     color:#444;
   }
-}
+}*/
