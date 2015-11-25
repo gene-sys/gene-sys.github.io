@@ -60,7 +60,9 @@ body {
   font: 14px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color:#727272;
   font-weight:400;
+  margin:0;
   margin-bottom: 50px;
+  text-align:center;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -111,9 +113,14 @@ a:hover small {
 .wrapper {
 /*   width: 700px; */
   position: relative;
-  height: 720px;
+  /*height: 720px;*/
   overflow: scroll;
   margin: 10 auto;
+  display:block;
+  padding:0;
+  text-align:left;
+  width:1000px;
+  
 }
 
 blockquote {
@@ -252,16 +259,19 @@ footer {
   -webkit-font-smoothing:subpixel-antialiased;
 }
 .block1 { 
+    display:block;
     left: 300px;
     position: absolute;
 /*     overflow: auto; */
 }
 .block2 { 
+    display:block;
     top: 300px;
     position: absolute;
 /*     overflow: auto; */
 }
 .block3 { 
+    display:block;
     top: 600px;
     position: absolute;
 /*     overflow: auto; */
