@@ -60,7 +60,7 @@ body {
   font: 14px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color:#727272;
   font-weight:400;
-  margin-bottom: 15px;
+  margin-bottom: 50px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -109,8 +109,8 @@ a:hover small {
 }
 
 .wrapper {
-/*   width: 1000px; */
-/*   height: 720px; */
+/*   width: 700px; */
+  height: 720px;
   overflow: scroll;
   margin: 10 auto;
 }
@@ -160,14 +160,14 @@ img {
   max-width:100%;
 }
 
-wrapper.header {
+.header {
   width:270px;
 /*   float:left; */
   position:fixed;
   -webkit-font-smoothing:subpixel-antialiased;
 }
 
-wrapper.header ul {
+.header ul {
   list-style:none;
   height:40px;
   padding:0;
@@ -177,22 +177,22 @@ wrapper.header ul {
   width:270px;
 }
 
-wrapper.header li {
+.header li {
   width:89px;
   float:left;
   border-right:1px solid #e0e0e0;
   height:40px;
 }
 
-wrapper.header li:first-child a {
+.header li:first-child a {
   border-radius:5px 0 0 5px;
 }
 
-wrapper.header li:last-child a {
+.header li:last-child a {
   border-radius:0 5px 5px 0;
 }
 
-wrapper.header ul a {
+.header ul a {
   line-height:1;
   font-size:11px;
   color:#999;
@@ -202,11 +202,11 @@ wrapper.header ul a {
   height:34px;
 }
 
-wrapper.header ul a:hover {
+.header ul a:hover {
   color:#999;
 }
 
-wrapper.header ul a:active {
+.header ul a:active {
   background-color:#f0f0f0;
 }
 
@@ -215,12 +215,12 @@ strong {
   font-weight:700;
 }
 
-wrapper.header ul li + li + li {
+.header ul li + li + li {
   border-right:none;
   width:89px;
 }
 
-wrapper.header ul a strong {
+.header ul a strong {
   font-size:14px;
   display:block;
   color:#222;
