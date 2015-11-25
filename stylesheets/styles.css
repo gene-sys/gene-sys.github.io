@@ -110,6 +110,7 @@ a:hover small {
 
 .wrapper {
 /*   width: 1000px; */
+  height: 720px;
   overflow: scroll;
   margin: 10 auto;
 }
